@@ -1,4 +1,8 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap');
+
 /* reset */
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,6 +17,11 @@ body {
     align-items: center;
     background-color: rgb(58, 56, 56);    
     min-height: 100vh;
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    color: rgb(152, 249, 88);
 }
 
 .emoji {
